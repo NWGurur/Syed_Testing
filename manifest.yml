@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Syed_Testing
+  host: FirstOperation
+  disk_quota: 1024M
+  services:
+  - Syed_Testing-cloudantNoSQLDB
+  - Syed_Testing-iotf-service
